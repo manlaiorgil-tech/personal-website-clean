@@ -89,8 +89,8 @@ export default function PersonalWebsite() {
             <p className="mb-4 inline-block rounded-full border border-emerald-400/30 bg-emerald-400/10 px-4 py-1 text-sm text-emerald-300">
               Based in Dublin • Open to opportunities
             </p>
-            <h2 className="text-4xl font-bold leading-tight md:text-6xl border border-slate-700 shadow-2xl p-4" style={{ borderWidth: '1px', boxShadow: '0 25px 50px -12px rgb(0 0 0 / 0.25)' }}>
-              Hi, I'm <span className="text-emerald-400">Manlai </span>.
+            <h2 className="text-4xl font-bold leading-tight md:text-6xl">
+              Hi, I'm <span className="text-emerald-400">Manlai</span>.
             </h2>
             <p className="mt-6 max-w-xl text-lg leading-8 text-slate-300">
               I’m a customer-focused hospitality professional based in Dublin, with experience across front of house,
