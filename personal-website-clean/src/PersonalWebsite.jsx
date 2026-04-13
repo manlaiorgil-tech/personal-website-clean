@@ -5,7 +5,7 @@ const skills = [
   'Food & beverage preparation',
   'Communication',
   'Teamwork & collaboration',
-  'Time management',
+  'Web Developing',
   'Organizational skills',
   'Office application skills',
   'DJing',
