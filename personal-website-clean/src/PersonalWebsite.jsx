@@ -125,14 +125,19 @@ export default function PersonalWebsite() {
             animate="visible"
             variants={fadeUp}
             custom={0.15}
-            className="rounded-[2rem] border border-white/10 bg-white/5 p-8 shadow-glow"
+            className="flex flex-col gap-6"
           >
+            <div className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/5 shadow-glow">
+              <img
+                src="/profile.jpeg"
+                alt="Manlai Orgil"
+                className="h-80 w-full object-cover object-top md:h-96"
+              />
+            </div>
             <div className="grid gap-4 sm:grid-cols-2">
               {[
                 ['Current Role', 'Front of House'],
-                ['Main Goal', 'Career Growth'],
                 ['Based In', 'Dublin, Ireland'],
-                ['Focus', 'Hospitality & Service'],
               ].map(([label, value]) => (
                 <div key={label} className="rounded-2xl border border-white/10 bg-slate-900 p-5">
                   <p className="text-sm text-slate-400">{label}</p>
