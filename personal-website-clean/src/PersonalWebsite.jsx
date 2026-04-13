@@ -8,7 +8,7 @@ const skills = [
   'Time management',
   'Organizational skills',
   'Office application skills',
-  'Front of house service',
+  'DJing',
 ];
 
 const experience = [
