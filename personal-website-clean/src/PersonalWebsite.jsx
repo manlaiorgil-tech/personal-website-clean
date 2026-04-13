@@ -89,8 +89,8 @@ export default function PersonalWebsite() {
             <p className="mb-4 inline-block rounded-full border border-emerald-400/30 bg-emerald-400/10 px-4 py-1 text-sm text-emerald-300">
               Based in Dublin • Open to opportunities
             </p>
-            <h2 className="text-4xl font-bold leading-tight md:text-6xl">
-              Hi, I’m <span className="text-emerald-400">Manlai Orgil</span>.
+            <h2 className="text-4xl font-bold leading-tight md:text-6xl border border-slate-700 shadow-2xl p-4" style={{ borderWidth: '1px', boxShadow: '0 25px 50px -12px rgb(0 0 0 / 0.25)' }}>
+              Hi, I'm <span className="text-emerald-400">Manlai </span>.
             </h2>
             <p className="mt-6 max-w-xl text-lg leading-8 text-slate-300">
               I’m a customer-focused hospitality professional based in Dublin, with experience across front of house,
@@ -125,14 +125,19 @@ export default function PersonalWebsite() {
             animate="visible"
             variants={fadeUp}
             custom={0.15}
-            className="rounded-[2rem] border border-white/10 bg-white/5 p-8 shadow-glow"
+            className="flex flex-col gap-6"
           >
+            <div className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/5 shadow-glow">
+              <img
+                src="/profile.jpeg"
+                alt="Manlai Orgil"
+                className="h-80 w-full object-cover object-top md:h-96"
+              />
+            </div>
             <div className="grid gap-4 sm:grid-cols-2">
               {[
                 ['Current Role', 'Front of House'],
-                ['Main Goal', 'Career Growth'],
                 ['Based In', 'Dublin, Ireland'],
-                ['Focus', 'Hospitality & Service'],
               ].map(([label, value]) => (
                 <div key={label} className="rounded-2xl border border-white/10 bg-slate-900 p-5">
                   <p className="text-sm text-slate-400">{label}</p>
