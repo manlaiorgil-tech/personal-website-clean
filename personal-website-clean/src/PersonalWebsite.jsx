@@ -15,7 +15,7 @@ const experience = [
   {
     role: 'Front of House',
     company: 'On a Roll Catering',
-    period: 'Jul 2025 – Present',
+    period: 'Jul 2025 – Mar 2026',
     description:
       'Greeting guests in busy environments, taking orders and payments through POS, handling customer inquiries, assisting with setup and restocking, and supervising new staff.',
   },
@@ -136,7 +136,7 @@ export default function PersonalWebsite() {
             </div>
             <div className="grid gap-4 sm:grid-cols-2">
               {[
-                ['Current Role', 'Front of House'],
+                ['Status', 'Open to Work'],
                 ['Based In', 'Dublin, Ireland'],
               ].map(([label, value]) => (
                 <div key={label} className="rounded-2xl border border-white/10 bg-slate-900 p-5">
