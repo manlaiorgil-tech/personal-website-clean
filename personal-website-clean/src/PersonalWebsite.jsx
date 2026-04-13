@@ -5,17 +5,17 @@ const skills = [
   'Food & beverage preparation',
   'Communication',
   'Teamwork & collaboration',
-  'Time management',
+  'Web Developing',
   'Organizational skills',
   'Office application skills',
-  'Front of house service',
+  'DJing',
 ];
 
 const experience = [
   {
     role: 'Front of House',
     company: 'On a Roll Catering',
-    period: 'Jul 2025 – Present',
+    period: 'Jul 2025 – Mar 2026',
     description:
       'Greeting guests in busy environments, taking orders and payments through POS, handling customer inquiries, assisting with setup and restocking, and supervising new staff.',
   },
@@ -89,8 +89,8 @@ export default function PersonalWebsite() {
             <p className="mb-4 inline-block rounded-full border border-emerald-400/30 bg-emerald-400/10 px-4 py-1 text-sm text-emerald-300">
               Based in Dublin • Open to opportunities
             </p>
-            <h2 className="text-4xl font-bold leading-tight md:text-6xl border border-slate-700 shadow-2xl p-4" style={{ borderWidth: '1px', boxShadow: '0 25px 50px -12px rgb(0 0 0 / 0.25)' }}>
-              Hi, I'm <span className="text-emerald-400">Manlai </span>.
+            <h2 className="text-4xl font-bold leading-tight md:text-6xl">
+              Hi, I'm <span className="text-emerald-400">Manlai</span>.
             </h2>
             <p className="mt-6 max-w-xl text-lg leading-8 text-slate-300">
               I’m a customer-focused hospitality professional based in Dublin, with experience across front of house,
@@ -98,7 +98,7 @@ export default function PersonalWebsite() {
             </p>
             <div className="mt-8 flex flex-wrap gap-4">
               <a
-                href="https://www.instagram.com/"
+                href="https://www.instagram.com/gorehiv"
                 target="_blank"
                 rel="noreferrer"
                 className="rounded-2xl border border-white/20 px-5 py-3 font-medium text-white transition hover:bg-white/5"
@@ -136,7 +136,7 @@ export default function PersonalWebsite() {
             </div>
             <div className="grid gap-4 sm:grid-cols-2">
               {[
-                ['Current Role', 'Front of House'],
+                ['Status', 'Open to Work'],
                 ['Based In', 'Dublin, Ireland'],
               ].map(([label, value]) => (
                 <div key={label} className="rounded-2xl border border-white/10 bg-slate-900 p-5">
