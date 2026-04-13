@@ -98,7 +98,7 @@ export default function PersonalWebsite() {
             </p>
             <div className="mt-8 flex flex-wrap gap-4">
               <a
-                href="https://www.instagram.com/"
+                href="https://www.instagram.com/gorehiv"
                 target="_blank"
                 rel="noreferrer"
                 className="rounded-2xl border border-white/20 px-5 py-3 font-medium text-white transition hover:bg-white/5"
