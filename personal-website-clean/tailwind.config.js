@@ -3,8 +3,15 @@ export default {
   content: ['./index.html', './src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     extend: {
-      boxShadow: {
-        glow: '0 0 0 1px rgba(255,255,255,0.06), 0 18px 50px rgba(0,0,0,0.25)',
+      colors: {
+        cream: '#FAF9F6',
+        charcoal: '#1a1a1a',
+        muted: '#6b6b6b',
+        border: '#e5e5e5',
+      },
+      fontFamily: {
+        sans: ['Inter', 'ui-sans-serif', 'system-ui', '-apple-system', 'sans-serif'],
+        serif: ['DM Serif Display', 'serif'],
       },
     },
   },
