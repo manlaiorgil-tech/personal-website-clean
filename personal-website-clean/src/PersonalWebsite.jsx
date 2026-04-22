@@ -11,51 +11,6 @@ const skills = [
   'DJing',
 ];
 
-const experience = [
-  {
-    role: 'Front of House',
-    company: 'On a Roll Catering',
-    period: 'Jul 2025 – Mar 2026',
-    description:
-      'Greeting guests in busy environments, taking orders and payments through POS, handling customer inquiries, assisting with setup and restocking, and supervising new staff.',
-  },
-  {
-    role: 'Pizza Chef & Order Taker',
-    company: 'Base Wood Fired Pizza',
-    period: 'Sep 2024 – Jul 2025',
-    description:
-      'Prepared wood-fired pizzas in a fast-paced kitchen, took in-store and phone orders, handled payments, and worked closely with kitchen and front-of-house teams.',
-  },
-  {
-    role: 'Pizza and Burger Chef',
-    company: 'Moreish Pizza',
-    period: 'May 2024 – Sep 2024',
-    description:
-      'Prepared pizzas and burgers consistently while maintaining food quality and cleanliness standards during service.',
-  },
-  {
-    role: 'Sales Representative',
-    company: 'Smart Store',
-    period: 'Aug 2023 – Apr 2024',
-    description:
-      'Handled customer calls, resolved issues, promoted products, and managed stock records with a strong focus on communication.',
-  },
-  {
-    role: 'Barista',
-    company: 'Tom N Toms Coffee',
-    period: 'Nov 2022 – Aug 2023',
-    description:
-      'Prepared espresso-based drinks and teas, maintained bar cleanliness, and assisted customers in a busy café setting.',
-  },
-  {
-    role: 'Waiter',
-    company: 'Bluefin Cuisine D\'Art',
-    period: 'Jun 2022 – Nov 2022',
-    description:
-      'Took customer orders, served food and drinks, maintained a clean dining area, and delivered friendly service during busy hours.',
-  },
-];
-
 const images = {
   hero: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image00057-Of3Vt3speVN8d1RkojgWh27V1vrDFx.jpeg',
   street: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_1817-GyRoF2HVVrvkrZBGgA9nfbvwi9cCzz.jpeg',
@@ -94,7 +49,6 @@ export default function PersonalWebsite() {
           <nav className="hidden items-center gap-10 text-sm md:flex">
             <a href="#about" className="text-muted transition-colors hover:text-charcoal">About</a>
             <a href="#gallery" className="text-muted transition-colors hover:text-charcoal">Gallery</a>
-            <a href="#experience" className="text-muted transition-colors hover:text-charcoal">Experience</a>
             <a href="#contact" className="text-muted transition-colors hover:text-charcoal">Contact</a>
           </nav>
           <a
