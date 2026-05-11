@@ -1,13 +1,12 @@
 import { motion } from 'framer-motion';
 
 const skills = [
-  'Customer Service',
+  'Photographing',
   'Food & Beverage',
-  'Communication',
-  'Teamwork',
+  'Modeling',
   'Web Development',
   'Organization',
-  'Office Applications',
+  'Marketing',
   'DJing',
 ];
 
